@@ -17,8 +17,8 @@ F datasheets/HT7750A.pdf
 $ENDCMP
 #
 $CMP LDO_REGULATOR
-D HOLTEK setup DC/DC converter
-K HT7750A, stepup, dc-dc, SOT-23
+D Low Dropout Linear Voltage Regulator
+K LDO, linear regulator, SOT-23-5
 $ENDCMP
 #
 $CMP LTC4054
